@@ -1,6 +1,6 @@
 lista = []
 
-with open ('C:/Users/vgarciaalonso/Desktop/AdventOfCode2020/Puzzle1.txt') as f:
+with open ('yourfile/AdventOfCode2020/Puzzle1.txt') as f: #reading from file 
     lista = [int(line) for line in f]
 
 s = set(lista)
