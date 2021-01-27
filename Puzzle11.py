@@ -2,7 +2,7 @@ lines = 0
 d = {}
  
 
-with open ('C:/Users/vgarciaalonso/Desktop/AdventOfCode2020/Puzzle11.txt') as f:
+with open ('yourfilepath_Puzzle11.txt') as f:
     for line in f:
         line = line.rstrip("\n")
         rows = 0
