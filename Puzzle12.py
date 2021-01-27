@@ -2,7 +2,7 @@ moves = []
 direction = ""
 path = {"E":0,"S":0,"W":0,"N":0}
 amount = 0  
-with open ('C:/Users/vgarciaalonso/Desktop/AdventOfCode2020/Puzzle12.txt') as f:
+with open ('YourFile_Puzzle12.txt') as f:
     for line in f:
         line = line.rstrip("\n")
         direction = line[0]
